@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="methodExecListener" class="cn.liulin.springjiemi.ioc.event.applica.MethodExecutionEventListener">
+    </bean>
+    <bean id="evtPublisher" class="cn.liulin.springjiemi.ioc.event.applica.MethodExeuctionEventPublisher">
+    </bean>
+</beans>

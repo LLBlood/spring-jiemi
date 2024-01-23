@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    <bean id="djNewsListenerExt" class="cn.liulin.springjiemi.pojo.iocext.DowJonesNewsListenerExt">
+    </bean>
+    <bean id="djNewsPersisterExt" class="cn.liulin.springjiemi.pojo.iocext.DowJonesNewsPersisterExt">
+    </bean>
+    <bean id="newsProviderExt" class="cn.liulin.springjiemi.pojo.iocext.FXNewsProviderExt"/>
+</beans>
